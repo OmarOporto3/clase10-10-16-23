@@ -1,4 +1,4 @@
-package org.example;
+package org.register;
 
 public class BelugaWhaleRegister extends AnimalRegister{
     private final String idBW;

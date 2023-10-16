@@ -1,4 +1,4 @@
-package org.example;
+package org.register;
 
 /**
  * This class instances all the Andine Condors (Objects) registered on the applications

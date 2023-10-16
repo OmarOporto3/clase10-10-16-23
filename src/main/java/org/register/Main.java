@@ -1,4 +1,4 @@
-package org.example;
+package org.register;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.AbstractHandler;
