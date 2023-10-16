@@ -5,6 +5,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * This class register and give the locations of all the entities created in the project
+ */
 public class Locations {
     public Locations()
     {

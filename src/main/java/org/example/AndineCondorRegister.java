@@ -1,4 +1,10 @@
 package org.example;
+
+/**
+ * This class instances all the Andine Condors (Objects) registered on the applications
+ * Initialize the id in the number of real knowledge specimens alive and get the information from the
+ * AnimalRegister class
+ */
 public class AndineCondorRegister extends AnimalRegister
 {
     private final String idAC;

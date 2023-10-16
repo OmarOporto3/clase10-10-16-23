@@ -3,6 +3,10 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * This class is the map for the construction of all the other register classes specifics for each specie
+ * contains all the necessary information that should be necessary for their derivatives
+ */
 public abstract class AnimalRegister
 {
     private final String[] MadurityArray = {"Young", "Adult", "Old"};

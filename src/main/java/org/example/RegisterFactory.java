@@ -4,6 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * This class has the function to create all the objects Registered and create specific elements according to the
+ * necessity
+ *
+ * The constructor create an amount of objects of AndineCondor
+ * The getCondorLocations group the locations of all the objects previously created
+ * The getCondorIds group the Ids of all the objects previously created
+ * the getCuantityOnCountry filter and create a list with all the objects from a specify country
+ */
 public class RegisterFactory {
     Locations locations = new Locations();
 

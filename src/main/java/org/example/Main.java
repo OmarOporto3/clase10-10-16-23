@@ -13,6 +13,10 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
+/**
+ * The main class initialize all the objects by using the RegisterFactory and make the frontend where is showed all
+ * the principal information
+ */
 public class Main {
     public static void main(String[] args) {
         Server server = new Server(8080);
