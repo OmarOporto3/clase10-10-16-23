@@ -37,7 +37,7 @@ public class RegisterFactory {
                 .collect(Collectors.toList());
     }
 
-    public List<String> getCuantityOnCountry(String country){
+    public List<String> getIdsOnCountry(String country){
         return condorList.stream()
                 .filter(condor -> condor.location().equals(country))
                 .map(AndineCondorRegister::id)
