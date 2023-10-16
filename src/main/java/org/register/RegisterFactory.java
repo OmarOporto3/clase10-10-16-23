@@ -25,19 +25,26 @@ public class RegisterFactory {
         }
     }
 
-    public List<String> getCondorLocations(){
+    public List<AndineCondorRegister> getCondorList()
+    {
+        return condorList;
+    }
+    public List<String> getCondorLocations()
+    {
         return condorList.stream()
             .map(AndineCondorRegister::location)
             .collect(Collectors.toList());
     }
 
-    public List<String> getCondorIds(){
+    public List<String> getCondorIds()
+    {
         return condorList.stream()
                 .map(AndineCondorRegister::id)
                 .collect(Collectors.toList());
     }
 
-    public List<String> getIdsOnCountry(String country){
+    public List<String> getIdsOnCountry(String country)
+    {
         return condorList.stream()
                 .filter(condor -> condor.location().equals(country))
                 .map(AndineCondorRegister::id)

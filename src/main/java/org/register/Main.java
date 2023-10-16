@@ -24,7 +24,7 @@ public class Main {
         ResourceHandler resourceHandler = new ResourceHandler();
         resourceHandler.setDirectoriesListed(true);
         resourceHandler.setWelcomeFiles(new String[]{"index.html"});
-        resourceHandler.setResourceBase("./src/main/java/org/example");
+        resourceHandler.setResourceBase("./src/main/java/org/register");
 
         HandlerList handlers = new HandlerList();
         handlers.setHandlers(new org.eclipse.jetty.server.Handler[]{resourceHandler, new CustomHandler()});
@@ -55,11 +55,7 @@ public class Main {
             response.setStatus(HttpServletResponse.SC_OK);
 
             RegisterFactory factory = new RegisterFactory();
-            System.out.println(factory.condorList.get(0).location());
 
-            String variable = factory.condorList.get(5).id();
-
-            //LocalDate variable = factory.condorList.get(9).date();
             String content = "<html><body>";
             content += "<h1>Register of Condors in 2022</h1>";
             content += "<h2>Location of the specimens.</h2>";
